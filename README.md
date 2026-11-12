@@ -15,6 +15,13 @@ including a chat-style Reader for Claude's conversations. Made by Maut Solutions
    scan the code with the camera, or tap **Add** and type the code.
 3. That's it. Maut Remote starts with Windows and sits in the tray (the reaper icon). Right-click it to show
    the pairing code again, turn off starting with Windows, or quit.
+4. SSH: the installer also turns on Windows' own SSH server (keys only), and the app offers **Set Up SSH** with one
+   tap, so the phone's SSH terminals reach the PC too, from anywhere.
+
+## Updating
+
+Download the newest installer and run it. It updates Maut Remote in place: no uninstalling, your pairing,
+terminals and settings stay, and Maut Remote starts again by itself.
 
 Your phone reaches the PC directly on the same Wi-Fi or over Tailscale, and through the Maut relay from any
 other network.
@@ -33,6 +40,7 @@ bound to its own relay key, so no one can take its place.
 - Windows 10 (1809 or later) or Windows 11, 64-bit.
 - Not yet: the lock and sign-in screen, and windows of programs running as administrator (UAC prompts):
   Windows keeps those out of reach of normal apps. Unlock the PC at the desk for now.
+- The phone's keyboard comes up by itself when you click into a text field on the PC.
 - Terminals open in PowerShell (PowerShell 7 when it's installed). They keep running while your phone is away,
   and come back with Claude Code resumed after a restart.
 - Uninstall from Settings > Apps.
